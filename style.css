@@ -1,0 +1,151 @@
+body{
+  background-color: #396ADB;
+}
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  border-radius: 0px;
+  background-color:#132691;
+}
+
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+}
+
+.navbar-brand:hover{
+  color: white;
+}
+
+.nav{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+  border: 2px solid white;
+  margin-right: 25px;
+}
+
+.icon-bar{
+  background-color: white;
+}
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.menu-item{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #BCCDE6;
+  border-bottom: 1px solid black;
+  color: black;
+  display: block;
+}
+
+.menu-item:hover{
+  background-color: rgba(0,0,0,0.9);
+  color: rgba(0,0,0,0.4);
+}
+
+.boox {
+    position: relative;
+    background-color:#1C5099;
+    border: 1px solid #396ADB;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+	color:#BCCDE6;
+}
+.hdgA, .hdgB,.hdgC{
+    background-color:#132691 ;
+opacity:.5;
+text-align:center;
+color:lightBlue;
+font-size:30px;
+}
+h2{ background-color:#396ADB ;
+opacity:.5;
+text-align:center;
+color:lightBlue;
+font-size:40px;
+font-weight:800;
+}
+.row{
+  margin: 20px;
+
+}
+
+.content-box{
+  margin: 20px;
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: rgba(0,0,0,0.2);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 20px;
+}
+
+.item-name{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#top{
+
+}
+
+/*laptop*/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/* Mobile*/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+		margin-bottom:5px;
+    }
+}
